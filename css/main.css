@@ -230,7 +230,7 @@ footer .social-icons {
 
 footer .social-icons p {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 footer .copyright {
