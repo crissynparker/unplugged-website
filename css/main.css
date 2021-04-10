@@ -103,6 +103,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 } 
   
 a {
@@ -148,13 +150,13 @@ address {
 
 /*=============Base Header-footer styles===================================*/
 
-  header,
-  footer {
-    background-color: #202322;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+header,
+footer {
+  background-color: #202322;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header {
