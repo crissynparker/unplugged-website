@@ -205,8 +205,8 @@ header nav ul li {
 }
 
 footer {
-  flex-direction: column;
   text-align: center;
+  flex-direction: column;
 }
 
 footer p {
@@ -317,6 +317,11 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features p {
