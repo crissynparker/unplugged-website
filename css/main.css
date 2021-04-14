@@ -252,6 +252,8 @@ footer .copyright {
 
 /*================Mobile Style Homepage======================================*/
 
+/*Hero Area*/
+
 .hero-area {
   background-image: url(../Assets/jake-melara-30679-unsplash.jpg);
   background-size: cover;
@@ -526,10 +528,10 @@ input[type=button] {
 
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
-}
 
- /* General styles */
- .content-wrapper {
+/* General styles */
+
+.content-wrapper {
   max-width: 640px;
   margin: 100px 0;
 }
@@ -690,7 +692,7 @@ footer .copyright {
   width: 45%;
 }
 .map figure {
-  width: 45.5%;
+  padding-bottom: 45.5%;
 }
 
 .contact-section .content-wrapper h2 {
@@ -727,11 +729,12 @@ footer .copyright {
 .faq p {
     font-size: .875em;
     line-height: 1.125;
+ }  
 }
 
 @media only screen and ( min-width: 1200px) {
   /*Desktop styles here*/
-}
+
 header {
   padding: 15px 0;
 }
@@ -829,8 +832,8 @@ FAQ Page
 .faq p {
     font-size: 1.125em;
     line-height: 1;
+   }
 }
-
 
 
 
