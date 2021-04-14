@@ -647,7 +647,7 @@ footer .content-wrapper {
   margin: 100px 0;
 }
 
-.footer .footer-content {
+footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
